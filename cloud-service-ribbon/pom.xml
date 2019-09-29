@@ -12,5 +12,11 @@
 
     <artifactId>cloud-service-ribbon</artifactId>
 
-
+    <dependencies>
+        <!-- 仅仅使用sleuth+log配置 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+    </dependencies>
 </project>

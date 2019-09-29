@@ -13,24 +13,24 @@
     <artifactId>cloud-dashboard-zipkin</artifactId>
 
     <dependencies>
-        <!-- spring-cloud-starter-sleuth
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-sleuth</artifactId>
-        </dependency>
-        -->
-        <!-- spring-cloud-starter-zipkin -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
+        <!-- spring-cloud-starter-sleuth   -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-sleuth</artifactId>-->
+        <!--</dependency>-->
 
-        <!-- zipkin 界面-->
+        <!-- spring-cloud-starter-zipkin -->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-zipkin</artifactId>-->
+        <!--</dependency>-->
+
+        <!--&lt;!&ndash; zipkin 界面&ndash;&gt;-->
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-autoconfigure-ui</artifactId>
         </dependency>
-        <!-- zipkin 服务类-->
+        <!--&lt;!&ndash; zipkin 服务类&ndash;&gt;-->
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-server</artifactId>
